@@ -20,6 +20,14 @@ echo "wget installed"
 
 echo "================================"
 
+echo "Installing unzip ..."
+
+apt install unzip -y
+
+echo "unzip installed"
+
+echo "================================"
+
 echo "Downloading App ..."
 
 wget -P /tmp https://github.com/denilsonbonatti/linux-site-dio/archive/refs/heads/main.zip
