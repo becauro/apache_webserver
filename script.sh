@@ -1,5 +1,7 @@
 #!/bin/bash
 
+repo_download_url="https://github.com/denilsonbonatti/linux-site-dio/archive/refs/heads/main.zip"
+
 echo "Script STARTED"
 
 echo "================================"
@@ -14,7 +16,7 @@ echo "================================"
 
 echo "Installing wget ..."
 
-apt install wget -y
+apt install wget -y $repo_download_url
 
 echo "wget installed"
 
@@ -30,7 +32,7 @@ echo "================================"
 
 echo "Downloading App ..."
 
-wget -P /tmp https://github.com/denilsonbonatti/linux-site-dio/archive/refs/heads/main.zip
+wget -P /tmp $repo_download_url
 
 echo "App downloaded"
 
@@ -38,9 +40,14 @@ echo "================================"
 
 echo "Unziping App ..."
 
-unzip /tmp/main.zip
+mkdir app
+
+unzip -d app /tmp/main.zip
+cd app/*
 
 echo "App unziped"
 
 echo "Script FINISHED"
+
+$SHELL
 
