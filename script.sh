@@ -34,5 +34,13 @@ wget -P /tmp https://github.com/denilsonbonatti/linux-site-dio/archive/refs/head
 
 echo "App downloaded"
 
+echo "================================"
+
+echo "Unziping App ..."
+
+unzip /tmp/main.zip
+
+echo "App unziped"
+
 echo "Script FINISHED"
 
