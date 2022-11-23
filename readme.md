@@ -1,15 +1,15 @@
 # Shell Script to deploy Apache web server and an App
 
 
-This small script download and deploy a small software in Apache Web Server.
+This script download and deploy a small software in Apache Web Server.
 
-The script
+The script ...:
 
-* Download the App source code;
-* Install:
+* To download the App source code;
+* To install:
 
   * apache2;
   * wget;
   * unzip;
 
-* Move App files into Apache2 folder.
+* To move App files into Apache2 folder.
