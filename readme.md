@@ -6,10 +6,10 @@ This small script download and deploy a small software in Apache Web Server.
 The script
 
 * Download the App source code;
-* install:
+* Install:
 
-  ** apache2;
-  ** wget;
-  ** unzip;
+** apache2;
+** wget;
+** unzip;
 
-* Move app files into Apache2 folder.
+* Move App files into Apache2 folder.
