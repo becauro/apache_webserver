@@ -15,6 +15,14 @@ echo "GNU/Linux Repositories updated"
 
 echo "================================"
 
+echo "Installing Apache ..."
+
+apt-get install apache2 -y
+
+echo "Apache installed"
+
+echo "================================"
+
 echo "Installing wget ..."
 
 apt install wget -y
