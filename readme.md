@@ -1,4 +1,4 @@
-# IaC in shell Script to deploy a Apache web server
+# Shell Script to deploy Apache web server and an App
 
 
 This small script download and deploy a small software in Apache Web Server.
