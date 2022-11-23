@@ -9,8 +9,9 @@ echo "================================"
 echo "Updating GNU/Linux repositories ..."
 
 apt update
+apt upgrade -y
 
-echo "Repositories updated"
+echo "GNU/Linux Repositories updated"
 
 echo "================================"
 
