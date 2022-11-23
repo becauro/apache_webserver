@@ -16,7 +16,7 @@ echo "================================"
 
 echo "Installing wget ..."
 
-apt install wget -y $repo_download_url
+apt install wget -y
 
 echo "wget installed"
 
@@ -44,8 +44,18 @@ mkdir app
 
 unzip -d app /tmp/main.zip
 cd app/*
+rm /tmp/main.zip
 
 echo "App unziped"
+
+echo "================================"
+
+echo "Moving app files into Web Server software"
+
+mv * /var/www/html
+
+echo "App files moved into Web Server software"
+
 
 echo "Script FINISHED"
 
