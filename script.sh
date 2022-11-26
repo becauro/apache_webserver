@@ -49,6 +49,7 @@ echo "================================"
 
 echo "Unziping App ..."
 
+cd /tmp
 mkdir app
 
 unzip -d app /tmp/main.zip
